@@ -1,7 +1,8 @@
 package dependencyinversion
 
-// Dependency inversion says that a higher level class should depend on a lower level class
-// but the abstraction between them
+// DIP states that high-level modules should not depend on low-level modules; both should depend on abstractions.
+// Abstractions should not depend on details; details should depend on abstractions.
+
 type User struct {
 	Username string
 }

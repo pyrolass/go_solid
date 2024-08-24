@@ -1,10 +1,7 @@
 package openclosed
 
-// Open Closed says that classes should be open for extension but not modification
-// if we have a single struct for calculating the horse power we would need an
-// if statement for each car which then modifies the struct each time we need to
-// calculate with this approach we fix this issue by having a single interface
-// that each car needs to implement.
+// OCP suggests that software entities should be open for extension but closed for modification.
+// Go's interfaces make this principle easy to implement.
 
 type HorsePowerCalculator interface {
 	CalculateHorsePower() float64

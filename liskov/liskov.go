@@ -1,10 +1,7 @@
 package liskov
 
-// Liskov's principle says that child class should be able to do everything that the
-// parent class does
-// in this example both M3 and Altim extend a common interface which is drive
-// both cars are drivable but one is fast
-
+// LSP states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program.
+// In Go, we can demonstrate this with interfaces.
 type ICar interface {
 	Drive() bool
 }

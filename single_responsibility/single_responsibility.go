@@ -2,8 +2,8 @@ package singleresponsibility
 
 import "time"
 
-// Single responsibility says "each class should be responsible for one thing" in we can do that in go by
-// having different structs
+// SRP states that a module should be responsible for one, and only one, reason to change.
+// In Go, we can achieve this by creating focused structs and interfaces.
 
 // Creating the entity for order
 type Order struct {

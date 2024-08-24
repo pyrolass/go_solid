@@ -1,7 +1,7 @@
 package interfacesegregation
 
-// Interface segregation says that we should separate our interfaces
-// for example we should have different interfaces for read and write methods
+// ISP advocates for many client-specific interfaces rather than one general-purpose interface.
+// Go's lightweight interfaces are perfect for this.
 
 type User struct {
 	Username string
